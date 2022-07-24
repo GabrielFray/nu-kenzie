@@ -1,0 +1,98 @@
+.contentDashboard {
+  min-width: 20rem;
+  width: 35.125rem;
+  max-height: 40.1875rem;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 2.4375rem;
+}
+.menuNav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menuNav h3 {
+  font-weight: 700;
+  font-size: 1rem;
+  height: auto;
+
+  margin-bottom: 1.25rem;
+}
+.menuNav nav {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+}
+.menuNav button {
+  height: 2.5rem;
+  width: 5.4375rem;
+
+  border-radius: 8px;
+  border: none;
+
+  background-color: var(--grey-2);
+  color: var(--grey-4);
+}
+.menuNav button:focus {
+  background-color: var(--color-primary);
+  color: var(--grey-1);
+
+  width: 4.3125rem;
+
+  transition: all ease-in-out 1s;
+}
+.contentList {
+  overflow-y: auto;
+
+  width: 100%;
+  height: 39.1875rem;
+
+  margin-top: 1.5rem;
+  padding: 0 0.425rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.listCard {
+  background-color: var(--grey-1);
+  border-radius: 0.25rem;
+
+  width: 100%;
+  min-height: 5.4375rem;
+
+  display: flex;
+  justify-content: space-between;
+
+  border-left: 5px solid var(--color-secondary-1);
+
+  padding: 1.125rem;
+}
+.contentList::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.4rem;
+}
+.contentList::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.241);
+  border-radius: 20px;
+}
+.contentList::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.242);
+  border: 3px solid transparent;
+  border-radius: 50px;
+}
+@media (min-width: 1024px) {
+  .menuNav {
+    flex-direction: row;
+  }
+  .menuNav h3 {
+    width: 12.5rem;
+  }
+  .menuNav nav {
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+}

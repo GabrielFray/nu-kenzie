@@ -1,0 +1,89 @@
+.contentForm {
+  margin-top: 2.4375rem;
+
+  width: 95vw;
+  max-width: 22.6875rem;
+  height: 21.9375rem;
+
+  border: 1px solid var(--grey-2);
+  border-radius: 0.25rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.divDescription {
+  display: flex;
+  flex-direction: column;
+  max-width: 19.625rem;
+}
+.contentForm label {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 0.75rem;
+
+  margin-bottom: 0.75rem;
+}
+.inputDescription {
+  width: 16.625rem;
+  max-width: 19.625rem;
+  height: 3.25rem;
+
+  border-radius: 8px;
+  border: none;
+
+  background-color: var(--grey-1);
+
+  outline: none;
+}
+.divDescription span {
+  font-size: 0.75rem;
+
+  margin-top: 0.25rem;
+
+  color: var(--grey-3);
+}
+.inputDescription::placeholder {
+  padding-left: 5px;
+
+  color: var(--grey-3);
+}
+.contentValues {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  max-width: 19.625rem;
+}
+
+.divValueLeft > input {
+  width: 130px;
+  height: 48px;
+
+  background-color: var(--grey-1);
+  border-radius: 0.5rem;
+}
+.divValueLeft > input::placeholder {
+  text-align: right;
+  padding-right: 0.6875rem;
+}
+.divValueRight select {
+  width: 150px;
+  height: 48px;
+
+  border-radius: 0.5rem;
+  background-color: var(--grey-1);
+}
+.contentForm button {
+  width: 90%;
+  max-width: 19.625rem;
+  height: 3rem;
+
+  color: var(--grey-1);
+  background-color: var(--color-primary);
+  border-radius: 0.5rem;
+
+  font-size: 1rem;
+  font-weight: 500;
+}

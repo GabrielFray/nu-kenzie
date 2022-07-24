@@ -1,0 +1,72 @@
+.App-main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.divMainContent {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+
+  background-color: var(--grey-4);
+}
+.contentLogin {
+  color: var(--grey-1);
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 1.25rem;
+}
+.contentLogin img {
+  width: 7.625rem;
+
+  margin-bottom: 1.875rem;
+}
+.contentLogin h2 {
+  font-size: 2.375rem;
+  line-height: 3rem;
+  font-weight: 800;
+
+  max-width: 23rem;
+}
+.contentLogin span {
+  font-size: 1rem;
+  font-weight: 400;
+
+  margin: 1.75rem 0;
+}
+.contentLogin button {
+  width: 15.0625rem;
+  height: 3rem;
+
+  font-weight: 500;
+  font-size: 1rem;
+
+  color: var(--grey-1);
+  border-radius: 8px;
+  border: 2px solid var(--color-primary1);
+  background-color: var(--color-primary);
+
+  cursor: pointer;
+}
+.imageNuKenzie {
+  display: none;
+}
+@media (min-width: 767px) {
+  .divMainContent {
+    justify-content: space-around;
+  }
+  .imageNuKenzie {
+    display: block;
+
+    max-width: 50%;
+  }
+}
+@media (min-width: 1440px) {
+  .divMainContent {
+    justify-content: space-evenly;
+  }
+}

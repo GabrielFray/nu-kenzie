@@ -1,0 +1,11 @@
+.subContentApp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .subContentApp {
+    justify-content: space-evenly;
+  }
+}

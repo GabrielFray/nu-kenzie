@@ -1,0 +1,33 @@
+.contentLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+.contentLeft p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--grey-4);
+}
+.contentLeft span {
+  font-size: 0.75rem;
+  font-weight: 400;
+
+  color: var(--grey-3);
+}
+.contentRight {
+  display: flex;
+  gap: 25px;
+
+}
+.contentRight span {
+  font-size: 0.75rem;
+  font-weight: 400;
+
+  color: var(--grey-4);
+}
+.contentRight button {
+  width: 1.375rem;
+  height: 1.375rem;
+
+  background-color: transparent;
+}

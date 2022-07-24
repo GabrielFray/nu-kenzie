@@ -1,0 +1,33 @@
+:root {
+  --color-primary: rgb(253, 55, 126, 1);
+  --color-primary-2: rgb(227, 73, 129, 1);
+  --color-secondary-1: rgb(3, 184, 152, 1);
+
+  /* grey scale pallet*/
+
+  --grey-4: rgb(33, 37, 41, 1);
+  --grey-3: rgb(134, 142, 150, 1);
+  --grey-2: rgb(233, 236, 239, 1);
+  --grey-1: rgb(248, 249, 250, 1);
+}
+* {
+  font-family: "Nunito", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+input,
+select,
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+ul,
+ol {
+  list-style: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
