@@ -1,3 +1,20 @@
+.listCard {
+  background-color: var(--grey-1);
+  border-radius: 0.25rem;
+
+  width: 100%;
+  min-height: 5.4375rem;
+
+  display: flex;
+  justify-content: space-between;
+
+  border-left: 5px solid var(--grey-2);
+
+  padding: 1.125rem;
+}
+.colorGreen {
+  border-left: 5px solid var(--color-secondary-1);
+}
 .contentLeft {
   display: flex;
   flex-direction: column;
@@ -17,7 +34,6 @@
 .contentRight {
   display: flex;
   gap: 25px;
-
 }
 .contentRight span {
   font-size: 0.75rem;

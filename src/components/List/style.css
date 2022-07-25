@@ -6,7 +6,11 @@
   display: flex;
   flex-direction: column;
 
-  margin-top: 2.4375rem;
+  margin: 2.4375rem;
+}
+.titleNothing {
+  font-size: 1.375rem;
+  font-weight: 700;
 }
 .menuNav {
   display: flex;
@@ -48,7 +52,7 @@
   overflow-y: auto;
 
   width: 100%;
-  height: 39.1875rem;
+  height: 100%;
 
   margin-top: 1.5rem;
   padding: 0 0.425rem;
@@ -57,20 +61,7 @@
   flex-direction: column;
   gap: 2rem;
 }
-.listCard {
-  background-color: var(--grey-1);
-  border-radius: 0.25rem;
 
-  width: 100%;
-  min-height: 5.4375rem;
-
-  display: flex;
-  justify-content: space-between;
-
-  border-left: 5px solid var(--color-secondary-1);
-
-  padding: 1.125rem;
-}
 .contentList::-webkit-scrollbar {
   width: 0.5rem;
   height: 0.4rem;

@@ -11,7 +11,7 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] =
     useState(true); /* trocar para false depois */
 
-  const [listTransactions, setListTransactions] = useState([{}]);
+  const [listTransactions, setListTransactions] = useState([]);
 
   return (
     <div className="App">
@@ -22,10 +22,12 @@ function App() {
             <div className="subContentApp">
               <div className="subContentForm">
                 <Form setListTransactions={setListTransactions} />
-                <TotalMoney />
+                <TotalMoney listTransactions={listTransactions} />
               </div>
-              <List listTransactions={listTransactions} />
-              {/* <Dashboard /> */}
+              <List
+                listTransactions={listTransactions}
+                setListTransactions={setListTransactions}
+              />
             </div>
           </>
         ) : (
