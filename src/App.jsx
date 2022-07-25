@@ -8,8 +8,7 @@ import List from "./components/List";
 import "./App.css";
 
 function App() {
-  const [isLoggedIn, setIsLoggedIn] =
-    useState(true); /* trocar para false depois */
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const [listTransactions, setListTransactions] = useState([]);
 
