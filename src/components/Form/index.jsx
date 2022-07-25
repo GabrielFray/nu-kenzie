@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import "./style.css";
 
-const Form = ({ listTransactions, setListTransactions }) => {
+const Form = ({ setListTransactions }) => {
   const [inputDescription, setInputDescription] = useState("");
   const [inputValue, setInputValue] = useState("");
   const [inputType, setInputType] = useState("Entrada");
@@ -58,8 +58,8 @@ const Form = ({ listTransactions, setListTransactions }) => {
             id="typeValue"
             onChange={(event) => setInputType(event.target.value)}
           >
-            <option value="Entrada">Entrada</option>
-            <option value="Despesa">Despesa</option>
+            <option value="Entrada">💸Entrada</option>
+            <option value="Despesa">📈Despesa</option>
           </select>
         </div>
       </div>

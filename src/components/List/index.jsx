@@ -20,13 +20,25 @@ const List = ({ listTransactions, setListTransactions }) => {
       <div className="menuNav">
         <h3>Resumo financeiro</h3>
         <nav>
-          <button type="button" onClick={() => changeFilter("Todos")}>
+          <button
+            className="button1"
+            type="button"
+            onClick={() => changeFilter("Todos")}
+          >
             Todos
           </button>
-          <button type="button" onClick={() => changeFilter("Entrada")}>
+          <button
+            className="button2"
+            type="button"
+            onClick={() => changeFilter("Entrada")}
+          >
             Entradas
           </button>
-          <button type="button" onClick={() => changeFilter("Despesa")}>
+          <button
+            className="button3"
+            type="button"
+            onClick={() => changeFilter("Despesa")}
+          >
             Despesas
           </button>
         </nav>

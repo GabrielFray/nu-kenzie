@@ -12,6 +12,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  animation: fadeInLeftBig 1.5s;
 }
 .totalMoney h4 {
   display: flex;

@@ -19,6 +19,8 @@
   flex-direction: column;
 
   padding: 0 1.25rem;
+
+  animation: fadeInLeft 1s;
 }
 .contentLogin img {
   width: 7.625rem;
@@ -52,6 +54,10 @@
 
   cursor: pointer;
 }
+.contentLogin button:hover {
+  background-color: var(--color-primary-2);
+  animation: pulse 1s;
+}
 .imageNuKenzie {
   display: none;
 }
@@ -63,6 +69,8 @@
     display: block;
 
     max-width: 50%;
+
+    animation: fadeInDownBig 1s;
   }
 }
 @media (min-width: 1440px) {

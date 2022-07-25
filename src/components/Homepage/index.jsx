@@ -2,6 +2,7 @@ import image from "../../assets/image.svg";
 import nuKenzie from "../../assets/nuKenzie.png";
 
 import "./style.css";
+import "animate.css";
 
 const Homepage = ({ setIsLoggedIn }) => {
   const handleLogin = () => {

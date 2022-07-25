@@ -11,9 +11,17 @@
   border-left: 5px solid var(--grey-2);
 
   padding: 1.125rem;
+
+  animation: fadeInLeft 0.5s;
+
+  cursor: pointer;
+}
+.listCard:hover {
+  box-shadow: 0px 5px 7px 1px rgba(0, 0, 0, 0.082);
 }
 .colorGreen {
   border-left: 5px solid var(--color-secondary-1);
+
 }
 .contentLeft {
   display: flex;
